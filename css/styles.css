@@ -129,7 +129,7 @@
 
 /* Responsivo */
 
-@media(max-width: 450px) {
+@media(max-width:450px) {
 
     #main-container {
         height: 100%;
@@ -154,10 +154,10 @@
         width: 100%;
     }
 
-    #contact-form input,
-    #contact-form label,
+    #contact-form label, 
+    #contact-form input, 
     #contact-form textarea {
-       border-color: #aaa;
+        border-color: #AAA;
     }
 
     #address-container {
@@ -173,4 +173,5 @@
         top: 25%;
         left: 25%;
     }
+
 }
